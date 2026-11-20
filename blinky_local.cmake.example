@@ -1,0 +1,11 @@
+# Copy to blinky_local.cmake (not committed) and edit. Delete the build
+# directory (or the CMakeCache.txt) after a change so the values are used.
+
+# Static address instead of DHCP
+# set(BLINKY_IP "192.168.1.60" CACHE STRING "")
+# set(BLINKY_GATEWAY "192.168.1.1" CACHE STRING "")
+
+# MQTT
+set(BLINKY_MQTT_BROKER "192.168.1.9" CACHE STRING "")
+# set(BLINKY_MQTT_USER "vscp" CACHE STRING "")
+# set(BLINKY_MQTT_PASSWORD "secret" CACHE STRING "")
