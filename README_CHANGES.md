@@ -7,6 +7,8 @@ tagged, rename **Unreleased** to the version and date, and start a new
 
 ## Unreleased
 
+## v0.1.0 261122
+
 - First version: the VSCP Blinky node (LED, button, millisecond counter, four row decision matrix, registers saved in flash) on the WIZnet W55RP20-EVB-Pico (RP2040 + W5500 Ethernet)
 - Transports, all at the same time: VSCP link protocol server (TCP/IP, three clients), VSCP frames over UDP and on the VSCP multicast group, VSCP JSON events over MQTT
 - DHCP or a static address, MAC address and GUID from the unique id of the flash, event time from SNTP
